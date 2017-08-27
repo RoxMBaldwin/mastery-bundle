@@ -8,7 +8,7 @@
 
 > **min-width vs max-width**
 
-> min-width queries are used to apply specific styling above a certain size
+> * min-width queries are used to apply specific styling above a certain size
 
 > if:
    body {
@@ -23,7 +23,7 @@
 
 > *if the screen reaches 400px and / above , the background color becomes FloralWhite.*
 
-> max-width queries are most valuable when you want styles to be implemented below a certain viewport size
+> * max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
 > if:
    body {
