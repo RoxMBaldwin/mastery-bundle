@@ -1,0 +1,63 @@
+html {
+  background: Lavender;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  background: Orchid;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+h2 {
+  color: DarkOrchid;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  height: 100%;
+}
+main {
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.row1 {
+  background: FloralWhite;
+  padding: .5em;
+  margin: 1em;
+}
+
+.row2 {
+  background: Azure;
+  padding: .5em;
+  margin: 1em;
+}
+
+.row3 {
+  background: HoneyDew;
+  padding: .5em;
+  margin: 1em;
+}
+
+img {
+  height: 15em;
+  width: 20em;
+}
+
+footer {
+  background: Orchid;
+  margin-top: 2em;
+  text-align: center;
+}
