@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   height: 100%;
 }
+
 main {
   display: flex;
   flex: 1 0 auto;
@@ -60,4 +61,114 @@ footer {
   background: Orchid;
   margin-top: 2em;
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  html {
+    background: DarkOrange;
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  header {
+    background: Gold;
+    color: white;
+    padding: 2em;
+    text-align: center;
+
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6em;
+  }
+
+  .row1, .row2, .row3 {
+    padding: 6em;
+  }
+
+  img {
+    float: right;
+  }
+
+  footer {
+    background: Gold;
+    margin-top: 2em;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    background: Lavender;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  header {
+    background: Orchid;
+    color: white;
+    padding: 2em;
+    text-align: center;
+  }
+
+  h2 {
+    color: DarkOrchid;
+  }
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  main {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+  }
+
+  .row1 {
+    background: FloralWhite;
+    padding: .5em;
+    margin: 1em;
+  }
+
+  .row2 {
+    background: Azure;
+    padding: .5em;
+    margin: 1em;
+  }
+
+  .row3 {
+    background: HoneyDew;
+    padding: .5em;
+    margin: 1em;
+  }
+
+  img {
+    height: 15em;
+    width: 20em;
+  }
+
+  footer {
+    background: Orchid;
+    margin-top: 2em;
+    text-align: center;
+  }
 }
