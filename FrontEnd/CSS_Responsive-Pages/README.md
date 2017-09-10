@@ -1,6 +1,6 @@
 # Frontend: Use CSS to create responsive pages
 
-## CSS includes media queries with mobile-first breakpoints 📲 (min-width instead of max-width)
+## - [x] CSS includes media queries with mobile-first breakpoints 📲 (min-width instead of max-width)
 
 * A mobile-first approach to styling means that styles are applied first to mobile devices. Advanced styles and other overrides for larger screens are then added into the stylesheet via media queries.
 
