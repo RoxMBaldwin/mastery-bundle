@@ -11,13 +11,13 @@ header {
   text-align: center;
 }
 
-.container {
+.row {
   display: flex;
   flex-direction: column;
   padding: 2em;
 }
 
-.row {
+.col-m-12 {
   background: FloralWhite;
   padding: .5em;
   margin: 1em;
@@ -50,7 +50,7 @@ footer {
       text-align: center;
     }
 
-    .container {
+    .row {
       display: flex;
       flex-direction: row;
     }
