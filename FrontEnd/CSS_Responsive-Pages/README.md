@@ -48,11 +48,11 @@
 
 * 'Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as "flex container") whereas the others are meant to be set on the children (said "flex items").'
 
-![property relationships](images/properties-parents.children.png)
+![property relationships](images/flexbox-syntax.png)
 
 *[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)*
 
-![flexbox syntax](images/flexbox-syntax.png)
+![flexbox syntax](images/properties-parents.children.png)
 
 *[Flexbox Grid](http://flexboxgrid.com/)*
 
