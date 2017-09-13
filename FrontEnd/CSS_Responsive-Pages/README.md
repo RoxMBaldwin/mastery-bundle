@@ -20,13 +20,13 @@
       background: FloralWhite;
     }
   }
-  ``
+  ```
 
 *if the screen reaches 400px and above , the background color becomes FloralWhite.*
 
 max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
-``js                                         if:
+```[js]                                         if:
    body {
     background: Olive;
   }
@@ -36,7 +36,7 @@ max-width queries are most valuable when you want styles to be implemented below
       background: HoneyDew;
     }
   }
-``
+```
 
 *if the screen goes below 400px, the background color becomes HoneyDew.*
 
