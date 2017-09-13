@@ -1,3 +1,8 @@
+<script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"/>
+<style>body { color: red }</style>
+
 # Frontend: Use CSS to create responsive pages
 
 ## - [x] CSS includes media queries with mobile-first breakpoints 📲 (min-width instead of max-width)
@@ -10,7 +15,7 @@
 
 * min-width queries are used to apply specific styling above a certain size
 
-```js                                         if:
+```render-babel                                if:
    body {
     background: Olive;
   }
@@ -20,13 +25,13 @@
       background: FloralWhite;
     }
   }
-  ```
+```
 
 *if the screen reaches 400px and above , the background color becomes FloralWhite.*
 
 max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
-```js                                         if:
+``js                                         if:
    body {
     background: Olive;
   }
@@ -36,7 +41,7 @@ max-width queries are most valuable when you want styles to be implemented below
       background: HoneyDew;
     }
   }
-```
+``
 
 *if the screen goes below 400px, the background color becomes HoneyDew.*
 
@@ -63,5 +68,7 @@ The viewport is a virtual window that display pages rendered by the web browser.
 The meta viewport is meant to resize the layout view and control the page's dimensions and scaling.
 
 If your layout needs at least 500 pixels of width:
-```js                                  < meta name="viewport" content="width=500, initial-scale=1" >
+
+```
+<meta name="viewport" content="width=500, initial-scale=1">
 ```
