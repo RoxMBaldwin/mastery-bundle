@@ -24,9 +24,10 @@
 
 *if the screen reaches 400px and above , the background color becomes FloralWhite.*
 
-* max-width queries are most valuable when you want styles to be implemented below a certain viewport size
+max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
-```js if:
+``js
+if:
    body {
     background: Olive;
   }
@@ -36,7 +37,7 @@
       background: HoneyDew;
     }
   }
-```
+``
 
 *if the screen goes below 400px, the background color becomes HoneyDew.*
 
@@ -46,7 +47,7 @@
 
 ## - [x] Uses flexbox / percentage-based widths to show content flowing to a grid
 
-* 'Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as "flex container") whereas the others are meant to be set on the children (said "flex items").'
+"Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as "flex container") whereas the others are meant to be set on the children (said "flex items")."
 
 ![property relationships](images/flexbox-syntax.png)
 
@@ -56,4 +57,13 @@
 
 *[Flexbox Grid](http://flexboxgrid.com/)*
 
-## Includes meta tags to set the viewport correctly
+## - [ ] Includes meta tags to set the viewport correctly
+
+The viewport is a virtual window that display pages rendered by the web browser. Since the difference in screen size between mobile and desktop browser is extreme, web developers need to control the viewport's size and scale.
+
+The meta viewport is meant to resize the layout view and control the page's dimensions and scaling.
+
+If your layout needs at least 500 pixels of width:
+``js
+<meta name="viewport" content="width=500, initial-scale=1">
+``
