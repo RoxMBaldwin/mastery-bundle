@@ -56,7 +56,7 @@ max-width queries are most valuable when you want styles to be implemented below
 
 *[Flexbox Grid](http://flexboxgrid.com/)*
 
-## - [ ] Includes meta tags to set the viewport correctly
+## - [x] Includes meta tags to set the viewport correctly
 
 The viewport is a virtual window that display pages rendered by the web browser. Since the difference in screen size between mobile and desktop browser is extreme, web developers need to control the viewport's size and scale.
 
@@ -67,3 +67,8 @@ If your layout needs at least 500 pixels of width:
 ```
 <meta name="viewport" content="width=500, initial-scale=1">
 ```
+![without meta tag](images/no_meta-tag.png)
+
+![with meta tag](images/with_meta-tag.png)
+
+*iPhone 6 viewport*
