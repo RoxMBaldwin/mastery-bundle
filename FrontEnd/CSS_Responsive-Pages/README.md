@@ -26,8 +26,7 @@
 
 max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
-```js
-if:
+```js if:
    body {
     background: Olive;
   }
@@ -37,7 +36,7 @@ if:
       background: HoneyDew;
     }
   }
-``
+```
 
 *if the screen goes below 400px, the background color becomes HoneyDew.*
 
@@ -64,6 +63,5 @@ The viewport is a virtual window that display pages rendered by the web browser.
 The meta viewport is meant to resize the layout view and control the page's dimensions and scaling.
 
 If your layout needs at least 500 pixels of width:
-```js
-<meta name="viewport" content="width=500, initial-scale=1">
+```js <meta name="viewport" content="width=500, initial-scale=1">
 ```
