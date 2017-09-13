@@ -60,22 +60,22 @@ max-width queries are most valuable when you want styles to be implemented below
 
 The viewport is a virtual window that display pages rendered by the web browser. Since the difference in screen size between mobile and desktop browser is extreme, web developers need to control the viewport's size and scale.
 
-The meta viewport is meant to resize the layout view and control the page's dimensions and scaling.
+The meta [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) is meant to resize the layout view and control the page's dimensions and scaling.
 
-If your layout needs at least 500 pixels of width:
+*If your layout needs at least 500 pixels of width:*
 
 ```
 <meta name="viewport" content="width=500, initial-scale=1">
 ```
 
-### without meta tag
+### without meta tag:
 
 
 ![without meta tag](images/no_meta-tag.png)
 
 
 
-### with meta tag
+### with meta tag:
 
 
 ![with meta tag](images/with_meta-tag.png)
