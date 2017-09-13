@@ -45,14 +45,14 @@ max-width queries are most valuable when you want styles to be implemented below
 ### mastery project full screen:
 
 
-[full-screen](/Users/space.legs/Mastery/mastery-bundle/FrontEnd/CSS_Responsive-Pages/images/full-screen.png)
+![full-screen](images/full-screen.png)
 
 
 
 ### mastery project when width is less than 580px:
 
 
-[at 580px](images/media-query_at-580px.png)
+![at 580px](images/media-query_at-580px.png)
 
 *Special thanks to [Zell](https://zellwk.com/blog/how-to-write-mobile-first-css/)*
 
