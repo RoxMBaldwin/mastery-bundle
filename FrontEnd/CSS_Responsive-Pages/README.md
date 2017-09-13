@@ -44,9 +44,11 @@
 
 *Special thanks to [Zell](https://zellwk.com/blog/how-to-write-mobile-first-css/)*
 
-## - [ ] Uses flexbox / percentage-based widths to show content flowing to a grid
+## - [x] Uses flexbox / percentage-based widths to show content flowing to a grid
 
 * 'Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as "flex container") whereas the others are meant to be set on the children (said "flex items").'
+
+![property relationships](images/flexbox-syntax.png)
 
 *[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)*
 
