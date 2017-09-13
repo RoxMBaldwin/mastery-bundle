@@ -1,8 +1,3 @@
-<script src="https://unpkg.com/react@15.6.1/dist/react.js"></script>
-<script src="https://unpkg.com/react-dom@15.6.1/dist/react-dom.js"></script>
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"/>
-<style>body { color: red }</style>
-
 # Frontend: Use CSS to create responsive pages
 
 ## - [x] CSS includes media queries with mobile-first breakpoints 📲 (min-width instead of max-width)
@@ -15,7 +10,7 @@
 
 * min-width queries are used to apply specific styling above a certain size
 
-```render-babel                                if:
+```[js]                                         if:
    body {
     background: Olive;
   }
@@ -25,7 +20,7 @@
       background: FloralWhite;
     }
   }
-```
+  ``
 
 *if the screen reaches 400px and above , the background color becomes FloralWhite.*
 
