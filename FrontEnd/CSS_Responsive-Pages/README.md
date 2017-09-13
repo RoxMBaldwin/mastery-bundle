@@ -67,8 +67,13 @@ If your layout needs at least 500 pixels of width:
 ```
 <meta name="viewport" content="width=500, initial-scale=1">
 ```
+
+**without meta tag**
 ![without meta tag](images/no_meta-tag.png)
 
+
+
+**with meta tag**
 ![with meta tag](images/with_meta-tag.png)
 
 *iPhone 6 viewport*
