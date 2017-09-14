@@ -10,7 +10,8 @@
 
 * min-width queries are used to apply specific styling above a certain size
 
-```[js]                                         if:
+```js                                         
+  if:
    body {
     background: Olive;
   }
@@ -26,7 +27,8 @@
 
 max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
-```[js]                                         if:
+```js                                        
+  if:
    body {
     background: Olive;
   }
@@ -77,7 +79,7 @@ The meta [viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/View
 *If your layout needs at least 500 pixels of width:*
 
 ```
-<meta name="viewport" content="width=500, initial-scale=1">
+$ meta name="viewport" content="width=500, initial-scale=1"
 ```
 
 ### without meta tag:
