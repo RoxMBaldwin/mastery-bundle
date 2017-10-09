@@ -59,7 +59,7 @@ Building is the parent (superclass) of both house and apartment (subclasses)
 The process of hiding unnecessary details from the user to avoid complexity and distraction
 - The other three pillars are essentially a form of abstraction
 
-📺 **Real world example:** 
+📺 **Real world example:**
 
 Using the remote control for the TV: <br>
  You don't have to worry about how the pressing of the key in the remote changes the channel on the TV, you just know that pressing the + volume button will make the TV louder
@@ -72,3 +72,17 @@ jQuery -  manipulates the DOM for us without use knowing all of the complex deta
 - The whole idea is to make things easier for the Developer
 - Hide complexity so we don't have to worry about it
   - We don't have to worry about code we don't know about —> it does what its suppose to
+
+
+# Instance Methods and Variables:
+- the constructor function is a subroutine that creates objects
+- An object that is created using a class is said to be an **instance** of that class.
+  - We will sometimes say that the object belongs to the class.
+  - every object *'knows'* what class was used to create it
+
+
+- The variables that the object contains are called **instance variables**.
+
+- The methods (that is, subroutines) that the object contains are called **instance methods**.
+  - data that belongs to individual objects; every object has its own copy of each one
+  - lives in memory for for the life of the object is it owned by
