@@ -53,16 +53,19 @@ The identity operator acts the exact same as the equality operator, except:
   ```js
   a === b
  ```
-  *for value types (numbers):*
-  *
+
+***Value types (numbers):***
+  * returns ```true``` if ```a``` and ```b```:
     * [x] have the same value
     * [x] are of the same type
 
-  *for reference types:*
+
+  ***Reference types:***
   * returns ```true``` if ```a``` and ```b```:
     * [x] reference the exact same object
 
-  *for strings*
+
+  ***Strings:***
   *  returns ```true``` if ```a``` and ```b```:
     * [x] are both strings
     * [x] contain the same number of characters
@@ -77,9 +80,10 @@ The identity operator acts the exact same as the equality operator, except:
     magic === taco // true
     ```
     * creating a string object using the ```String``` constructor creates something of type ```Object``` that behaves as a string most of the time.
-       ```js
-       var string = "666"
-       var cheese = new String("666")
 
-       string === cheese //false
-      ```
+    ```js
+    var string = "666"
+    var cheese = new String("666")
+
+   string === cheese //false
+   ```
