@@ -71,19 +71,19 @@ The identity operator acts the exact same as the equality operator, except:
     * [x] contain the same number of characters
     * [x] the letter-case is the same
 
-    ```js
-    var magic = "Yum"
-    var taco = "Yum"
-    var truck = "yum"
+  ```js
+  var magic = "Yum"
+  var taco = "Yum"
+  var truck = "yum"
 
-    taco === truck //false
-    magic === taco // true
-    ```
+  taco === truck //false
+  magic === taco // true
+  ```
     * creating a string object using the ```String``` constructor creates something of type ```Object``` that behaves as a string most of the time.
 
-    ```js
-    var string = "666"
-    var cheese = new String("666")
+  ```js
+  var string = "666"
+  var cheese = new String("666")
 
-   string === cheese //false
-   ```
+  string === cheese //false
+  ```
