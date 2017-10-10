@@ -124,7 +124,7 @@ $ nodemon
 * go to localhost:3000 **/render**
 
 
-![hb-rendered-img&txt](views/images/exphbs-rendered.png)
+![hb-rendered-imgANDtxt](public/images/exphbs-rendered.png)
 
 
 *Note:*
