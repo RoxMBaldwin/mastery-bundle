@@ -1,0 +1,16 @@
+{
+  "name": "Render-HTML-from-Server-side-app",
+  "version": "1.0.0",
+  "description": "### Use express.static to serve client-side resources from the server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0"
+  }
+}
