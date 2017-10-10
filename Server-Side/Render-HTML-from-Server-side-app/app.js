@@ -6,10 +6,10 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 app.use('/', express.static('./public'))
-//when its at '/', it serves the public dir
+// when its at '/', it serves the public directory
 
 //more dynamic
-app.get('/render', (request,response)=>{
+app.get('/render', (request,response) => {
   response.render('home')
 })
 

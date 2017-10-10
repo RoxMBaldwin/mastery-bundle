@@ -123,5 +123,14 @@ $ nodemon
 
 * go to localhost:3000 **/render**
 
-[[add screenshot]]
-![hb-rendered-img&txt](###)
+
+![hb-rendered-img&txt](views/images/exphbs-rendered.png)
+
+
+*Note:*
+In order to render this 🤡 image, I could not figure out a way to use a local image. Instead, I used the images href for the src. I am curious about this and would like to find out why.
+*Answer:*
+The 'images' directory must be in the 'public' directory since that is what is being servered statically
+```js
+app.use('/', express.static('./public'))
+```
