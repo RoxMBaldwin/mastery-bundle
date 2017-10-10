@@ -63,7 +63,7 @@ app.listen(3000)
 - you can add mutlpile ```html``` files to public and then depending on the route route, have them render when the url is changed in the browsers
 
 
-lets try to make both public and render work:
+lets try to make both public and render work using [Express Handlebars](https://github.com/ericf/express-handlebars)
 ```
 $ npm install express-handlebars
 ```
