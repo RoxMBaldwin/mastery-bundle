@@ -7,16 +7,16 @@
 
 *Initiate npm and install express*
 ```
-> npm init -y
+$ npm init -y
 ```
 
 ```
-> npm install express
+$ npm install express
 ```
 
 *Add an app.js file*
 ```
-> touch app.js
+$ touch app.js
 ```
 
 *in the app.js*
@@ -35,7 +35,7 @@ app.listen(3000)
 
 run
 ```
-> node app.js
+$ node app.js
 ```
 and go to localhost:3000
 ![js-render](images/render-from-js.png)
@@ -46,7 +46,7 @@ mkdir public
 ```
 *Add an index.html file into public*
 ```
-> touch index.js
+$ touch index.js
 ```
 
 now we want to serve the html statically so we will change the ```app.js```:
@@ -118,7 +118,7 @@ app.listen(3000)
 
 * start the server:
 ```
-> nodemon
+$ nodemon
 ```
 
 * go to localhost:3000 **/render**
