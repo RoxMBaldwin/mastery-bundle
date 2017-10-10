@@ -115,3 +115,13 @@ app.listen(3000)
 </html>
 ```
 [[ ```exphbs``` will look here for the default layout, then handlebars will dicate where to plug in from ```home.handlebars``` ]]
+
+* start the server:
+```
+> nodemon
+```
+
+* go to localhost:3000 **/render**
+
+[[add screenshot]]
+![hb-rendered-img&txt](###)
