@@ -35,6 +35,10 @@ The identity operator acts the exact same as the equality operator, except:
 
 **Equality || ==**
   * will compare the two values for equality **after doing the necessary type conversions**
+    * will attempt to make the data types the same before making the comparison
+    * uses coercion to convert types statically typed languages at compile time
+    * [more on converting values](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch4.md)
+
   ```js
   var stringInteger = "666";
   var numberInteger = 666;
@@ -48,6 +52,7 @@ The identity operator acts the exact same as the equality operator, except:
 
 **Identity || ===**
   * no type conversion is done
+    * requires both data types to be the same as a prerequisite
   * the types must be the same to be considered equal
 
   ```js
