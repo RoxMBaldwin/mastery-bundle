@@ -1,0 +1,15 @@
+{
+  "name": "Higher-Order-Functions",
+  "version": "1.0.0",
+  "description": "A function that takes another function as an parameter or returns a function",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^4.0.1"
+  }
+}
