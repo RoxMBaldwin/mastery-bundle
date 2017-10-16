@@ -6,8 +6,21 @@
 // e.g. any([-1,-2,0], function (num) { return num > 0 })
 //      >> false
 function any (arr, callback) {
-
+  // callback(5)
+  for(var i = 0; i < arr.length; i++){
+    //console.log(arr[i])
+    // return callback(arr[i])
+    callback(arr[i])
+  }
 }
+
+var myArray = [-1, 2, 0]
+var myCallBackFunction = function(num){
+  console.log(num > 0)
+   return num > 0
+ }
+
+any(myArray, myCallBackFunction)
 
 // e.g. higherOrderMath(10)('+')('11')
 //      >> 21
@@ -17,6 +30,7 @@ function any (arr, callback) {
 //       If it is not one of those, return false
 function higherOrderMath (num1) {
 
+  return false
 }
 
 module.exports = { any, higherOrderMath }
