@@ -1,14 +1,17 @@
-// Class = Clown
+// Class = Clown 🤡
 // Properties = name, hairColor
 
 // Constructor
-var Clown = function(name, hairColor) {
+var Clown = function(name, hairColor){
   this.name = name
   this.hairColor = hairColor
-  this.joke = function(){
-    console.log('knock, knock')
-  }
 }
 
-// var Bobo = new Clown('Bobo', 'red')
+var bobo = new Clown('Bobo', 'red')
 // console.log(Bobo);
+bobo.joke = function(){
+  console.log(this.name + ' says knock, knock ')
+}
+
+bobo.joke()
+//returns: 'Bobo says knock, knock'

@@ -32,9 +32,38 @@ A special type of subroutine called to create an Object
 var Cat = function(name, breed){
   this.name = name
   this.breed = breed
-  this.purr = function(){
-   console.log('purrrr')
 }
 ```
 
-###Instance  
+### Instance  
+An instance is a unique copy of a Class that represents an Object
+
+*Create an object from a class*
+```js
+var kitty = new Cat()
+```
+
+### Method
+An Object exposes its behavior through methods
+- an action that an object is able to perform
+- needs to do something with the Object it was called on
+  - 'points' to the Object it belongs to
+  - able to operate on data that is contained within the class
+
+```js
+var snowball = new Cat('snowball', 'fluffy')
+
+snowball.purr = function(){
+  console.log('purrrr, I am ' + this.breed)
+}
+```
+
+### Prototype
+When the object get a request for a property that it does not have, its prototype will be searched for the property, then the prototype’s prototype and so on
+- another object that is used as a fallback source of properties
+- prototype chaining reduces memory
+```js
+Cat.prototype.meow = function(){
+  console.log('meow' + this.name)
+}
+```
