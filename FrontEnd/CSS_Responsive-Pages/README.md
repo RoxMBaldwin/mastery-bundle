@@ -27,7 +27,7 @@
 
 max-width queries are most valuable when you want styles to be implemented below a certain viewport size
 
-```js                                        
+```css                                        
   if:
    body {
     background: Olive;
