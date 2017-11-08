@@ -28,6 +28,8 @@ Reference types are are any instantiable class. A class is instantiable if we ca
 
 **Primitive values are data that is stored on the stack, whereas, Reference values are objects that are stored on the heap**
 
+**Primitive types are set to a value whereas Ref types act as a pointer **
+
 ### Describe the difference between == and ===
 
 #### Comparison Operators:
