@@ -7,6 +7,7 @@ var Clown = function(name, hairColor){
   this.hairColor = hairColor
 }
 
+//Method
 var bobo = new Clown('Bobo', 'red')
 // console.log(Bobo);
 bobo.joke = function(){
@@ -15,3 +16,11 @@ bobo.joke = function(){
 
 bobo.joke()
 //returns: 'Bobo says knock, knock'
+
+//Prototype
+
+Clown.prototype.laugh = function(){
+  console.log('HAHAHAHHAHAHAHAHAHA shave my ' + this.hairColor + ' hair');
+}
+
+bobo.laugh()
