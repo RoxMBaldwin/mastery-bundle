@@ -58,7 +58,7 @@ app.use('/', express.static('./public'))
 //when its at '/', it serves the public directory
 app.listen(3000)
 ```
-![statically-rendered-html](images/statically-rendered.png)
+![statically-rendered-html](./public/images/statically-rendered.png)
 
 - you can add mutlpile ```html``` files to public and then depending on the route route, have them render when the url is changed in the browsers
 
