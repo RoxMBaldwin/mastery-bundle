@@ -24,3 +24,7 @@ Clown.prototype.laugh = function(){
 }
 
 bobo.laugh()
+
+var bob = new Clown('Bob', 'red')
+
+bob.joke()
