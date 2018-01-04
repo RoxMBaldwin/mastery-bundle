@@ -103,3 +103,6 @@ router.put('/articles/:id', function(req, res, next){
   });
 });
 ```
+
+🍦 ***Resources:***
+- [JWT Video](https://www.youtube.com/watch?v=sQzqUbAG514) with Chad

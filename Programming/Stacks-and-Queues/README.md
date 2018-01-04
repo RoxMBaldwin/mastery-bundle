@@ -22,11 +22,11 @@
 - **Enqueue:** add a new item to the end of the queue
   - ```.unshift()```
 - **Dequeue:** remove the item at the front of the queue
-  - ```.pop()```
+  - ```.shift()```
 
 ## Big O Complexity
 **O(1**)
-- ```push, pop, unshift, pop```
+- ```push, pop, unshift, shift```
 ***: all constant time***
   - takes a single operation
   - you're only manipulating one place
